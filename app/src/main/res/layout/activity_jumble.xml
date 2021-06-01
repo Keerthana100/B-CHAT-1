@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context="com.example.callback.b_chat.jumble">
+
+    <Button
+        android:id="@+id/listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:text="Listen"
+        app:backgroundTint="#FA2457" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/listen"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:background="#e4e6eb"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/counttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="left"
+        android:layout_marginStart="17dp"
+        android:fontFamily="@font/amarante"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:gravity="right"
+        android:layout_marginEnd="17dp"
+        android:fontFamily="@font/amarante"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginRight="14dp" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/textborder"
+        android:fontFamily="@font/convergence"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#26F8CE"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/writemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/listen"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/listen" />
+
+    <Button
+        android:id="@+id/listDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listview"
+        android:layout_centerHorizontal="true"
+        android:text="List Devices"
+        app:backgroundTint="#FA2457" />
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/listDevices"
+        android:layout_alignBottom="@+id/listDevices"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:text="Status"
+        android:textColor="#ED0E43"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp" />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/writemsg"
+        android:layout_alignEnd="@+id/status"
+        android:background="@drawable/shape2"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        android:layout_alignRight="@+id/status" />
+
+</RelativeLayout>

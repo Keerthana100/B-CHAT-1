@@ -36,4 +36,3 @@ B-CHAT is a Bluetooth based application where two users can connect their mobile
    [Android Studio]: <https://developer.android.com/studio>
    
 
--	

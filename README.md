@@ -12,8 +12,18 @@ B-CHAT is a Bluetooth based application where two users can connect their mobile
 ## Technology
 
 - Platform: [Android Studio]
-- API: [Bluetooth API]
-- Language: [Java]
+- API: Bluetooth API
+- Language: Java
+
+## Steps to run the app
+
+-	Download zip file of code and extract it in specific location
+-	Open android studio and choose "Open an existing Android Studio project" option
+-  Then specify the extracted zip file location and click on it
+-	Once gradle build is finished, connect your android device through usb and choose your device name ( make sure you have enabled the developer options in your mobile ) 
+-	Click run icon 
+-	Now the application will run in your android device 
+
 
 ## Team Members
 
@@ -25,3 +35,5 @@ B-CHAT is a Bluetooth based application where two users can connect their mobile
 
    [Android Studio]: <https://developer.android.com/studio>
    
+
+-	

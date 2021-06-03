@@ -27,7 +27,7 @@ B-CHAT is a Bluetooth based application where two users can connect their mobile
 
 ## Team Members
 
-| Name | Roll No. |
+| Name | Roll No |
 | ------ | ------ |
 | Keerthana S | 2018115047 |
 | Janani S | 2018115042 |
@@ -36,4 +36,4 @@ B-CHAT is a Bluetooth based application where two users can connect their mobile
    [Android Studio]: <https://developer.android.com/studio>
    
 
--	
+	
